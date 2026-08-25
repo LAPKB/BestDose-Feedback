@@ -17,7 +17,7 @@ See [Goutelle et al. J Clin Pharmacol, 2022](https://pubmed.ncbi.nlm.nih.gov/331
 - [x] Easy and customizable report generation.
 - [x] Easy in app interface to manage model library (creation/modification)
 - [x] For antibiotics there is a call to EUCAST API to retrieve bacteria and MIC data for antibiotic dosing (partially supported).
-- [ ] Automatic import from for model from published literature.
+- [ ] Automatic import from for model from published literature from companion app `BDautodial`
 
 # Functionality
 The legacy manual is available [here](https://www.lapk.org/BestDose_manual.pdf) for further information.  
