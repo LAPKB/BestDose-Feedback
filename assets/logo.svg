@@ -1,0 +1,14 @@
+<svg xmlns="http://w3.org" viewBox="0 0 200 200" width="96" height="96">
+  <defs>
+    <clipPath id="circle-clip">
+      <circle cx="100" cy="100" r="100" />
+    </clipPath>
+  </defs>
+  <image 
+    href="https://github.com" 
+    width="200" 
+    height="200" 
+    preserveAspectRatio="xMidYMid slice" 
+    clip-path="url(#circle-clip)" 
+  />
+</svg>
