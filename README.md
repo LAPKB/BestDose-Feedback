@@ -1,35 +1,54 @@
-# Overview  <img align="right" width="190" height="60" src="https://github.com/user-attachments/assets/007af9f0-fa90-4269-9b3a-6a36cbd08992">
+# BestDose <img align="right" width="96" height="96" alt="BestDose logo" src="BestDose_logo.png">
 
+BestDose is software for model-informed precision dosing (MIPD). It helps healthcare professionals choose a dose for an individual patient from that patient's characteristics and measured drug concentrations.
 
+BestDose works with the [Pmetrics](https://github.com/LAPKB/Pmetrics) package for R and uses its non-parametric population models. It is the only non-parametric, Bayesian adaptive control software for clinical use. See [Goutelle et al., J Clin Pharmacol, 2022](https://pubmed.ncbi.nlm.nih.gov/33103785) for background on the method.
 
-BestDose is a software for Model Informed Personalized Dosing Applications (MIPD).  
-It is designed to help healthcare professionals optimize drug dosing for individual patients based on their unique characteristics and responses to treatment.
+> Note : **This repository is where you ask questions and report problems.**  
+> The BestDose source code is not published here.
 
-BestDose partners with the Pmetrics package for R, which provides the use of non-parametric model.  
-This is the only Non-Parametric and Bayesian adaptive control software for clinical use.
+## What BestDose does
 
-See [Goutelle et al. J Clin Pharmacol, 2022](https://pubmed.ncbi.nlm.nih.gov/33103785) for more information about non-parametric and Bayesian adaptive control.
+- _A priori_ dosing from a population model, and _a posteriori_ (Bayesian) dosing once concentrations are measured.
+- Pharmacokinetic and pharmacodynamic models.
+- Customizable PDF reports.
+- A model library you can browse, edit and extend inside the app.
+- Import of models from the published literature with the companion app `BestDose autopilot` downloadable on the LAPKB website (see below).
+- EUCAST bacteria and MIC data for antibiotic targets (partially supported).
+- A full user manual inside the app.
 
-# Features
-- [x] User-friendly web interface for easy access and navigation.
-- [x] Advanced pharmacokinetic and pharmacodynamic modeling.
-- [x] Personalized dosing recommendations based on patient-specific data, including *A priori* and *posterior* predictions 
-- [x] Easy and customizable report generation.
-- [x] Easy in app interface to manage model library (creation/modification)
-- [x] For antibiotics there is a call to EUCAST API to retrieve bacteria and MIC data for antibiotic dosing (partially supported).
-- [x] Automatic import from for model from published literature from companion app `BDautodial`
+## Get BestDose
 
-# Functionality
-The legacy manual is available [here](https://www.lapk.org/BestDose_manual.pdf) for further information.  
-A totally new manual is available directly in the application.
+BestDose is a desktop application for Windows and macOS (Apple silicon). Download it from [lapkb.org/downloads/apps](https://lapkb.org/downloads/apps/).
 
-# Author
-- Dr Romain Garreau Author, maintener
-- Pr Michael Neely, Author, BestDose Rightholder
-- Dr Julian Otavalro, Author
-- Dr Markus Hovd, Author
+BestDose needs an LAPKB licence. On first launch, sign in with your LAPKB account, or use **Activate offline** if the computer has no internet access.
 
-# License and Copyright
-BestDose is licensed under the GNU General Public License v3.0.  
-All right is held by the [LAPKB (Laboratory of Applied Pharmacokinetics and Bioinformatics, University of Southern California, Los Angeles, CA, USA)](https://www.lapk.org)
+BestDose shows when a newer version is available: open the account menu (your initials, top right). It shows your version, and an **Update to …** button when a newer one is out.
 
+## Ask a question or report a problem
+
+Open an [issue](https://github.com/LAPKB/BestDose-Feedback/issues). In BestDose, **Report issues** in the account menu opens this page.
+
+> [!CAUTION]
+> **Never post patient data.** Issues are public. Remove names, dates of birth, record numbers and any other identifying information from text, files and screenshots before you post.
+
+To help us fix a problem quickly, include:
+
+- **Your BestDose version**, shown in the account menu.
+- **Your operating system** (Windows or macOS).
+- **What you did, what you expected, and what happened.** A screenshot of any error message helps.
+- **For sign-in or licence problems on Windows**, the log file `%LOCALAPPDATA%\BestDose\logs\bestdose.log` and `%LOCALAPPDATA%\org.lapkb.desktop\auth-dialog.log`. It contains no patient data.
+
+## Teams
+
+- Dr Romain Garreau, PharmD, PhD
+- Pr Michael Neely, MD, MSc, FCP
+- Dr Julián Otálvaro, PhD
+- Dr Markus Hovd, MSc. Pharm, Ph.D
+- Pr Sylvain Goutelle, Pharm.D, Ph.D
+- Pr Laurent Bourguignon, Pharm.D, Ph.D
+
+## Licence and copyright
+
+**BestDose**® is a registered trademark of LAPKB. The open-source license for this repository does not grant rights to use the trademark.  
+All rights are held by the [LAPKB (Laboratory of Applied Pharmacokinetics and Bioinformatics, University of Southern California, Los Angeles, CA, USA)](https://lapkb.org).
