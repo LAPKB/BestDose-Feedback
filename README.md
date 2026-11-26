@@ -28,6 +28,7 @@ BestDose shows when a newer version is available: open the account menu (your in
 ## Ask a question or report a problem
 
 Open an [issue](https://github.com/LAPKB/BestDose-Feedback/issues). In BestDose, **Report issues** in the account menu opens this page.
+You can also use the discussion forum for questions and suggestions.
 
 > [!CAUTION]
 > **Never post patient data.** Issues are public. Remove names, dates of birth, record numbers and any other identifying information from text, files and screenshots before you post.
