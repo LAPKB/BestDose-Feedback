@@ -1,4 +1,4 @@
-# BestDose <img align="right" width="96" height="96" alt="BestDose logo" src="BestDose_logo.png">
+# BestDose <img align="right" width="96" height="96" alt="BestDose logo" src="assets/logo.svg">
 
 BestDose is software for model-informed precision dosing (MIPD). It helps healthcare professionals choose a dose for an individual patient from that patient's characteristics and measured drug concentrations.
 
